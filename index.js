@@ -103,7 +103,7 @@ app.use(express.json())
   
 // }
 async function fetchData(searchTerm = "") {
-  const uri = 'mongodb://localhost:27017/'; // Replace with your MongoDB URI
+  const uri = 'mongodb+srv://ritheshp11:admin@herbcartel.bilcy0r.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB URI
   const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   
   try {
@@ -243,7 +243,7 @@ async function fetchData(searchTerm = "") {
   }
 }
 async function fetchData1(searchTerm = "") {
-  const uri = 'mongodb://localhost:27017/'; // Replace with your MongoDB URI
+  const uri = 'mongodb+srv://ritheshp11:admin@herbcartel.bilcy0r.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB URI
   const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   
   try {
@@ -391,7 +391,7 @@ async function fetchData1(searchTerm = "") {
   }
 }
 async function fetchData2(searchTerm = "") {
-  const uri = 'mongodb://localhost:27017/'; // Replace with your MongoDB URI
+  const uri = 'mongodb+srv://ritheshp11:admin@herbcartel.bilcy0r.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB URI
   const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   
   try {
@@ -539,7 +539,7 @@ async function fetchData2(searchTerm = "") {
   }
 }
 async function fetchData3(searchTerm = "") {
-  const uri = 'mongodb://localhost:27017/'; // Replace with your MongoDB URI
+  const uri = 'mongodb+srv://ritheshp11:admin@herbcartel.bilcy0r.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB URI
   const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
   
   try {
